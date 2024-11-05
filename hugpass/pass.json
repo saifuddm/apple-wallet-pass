@@ -1,0 +1,64 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.saifuddm.hugpass",
+  "serialNumber": "1234567",
+  "teamIdentifier": "<REPLACE_ME>",
+  "organizationName": "<REPLACE_ME>",
+  "description": "Free hugs pass",
+  "logoText": "Happy Birthday",
+  "backgroundColor": "rgb(26, 25, 25)",
+  "foregroundColor": "rgb(192, 192, 192)",
+  "labelColor": "rgb(255, 255, 255)",
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatQR",
+      "message": "<REPLACE_ME>",
+      "messageEncoding": "iso-8859-1"
+    }
+  ],
+  "coupon": {
+    "primaryFields": [
+      {
+        "key": "offer",
+        "label": "OfferLabel",
+        "value": "OfferValue"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "participants",
+        "label": "ParticipantsLabel",
+        "value": "ParticipantsValue"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "expiry",
+        "label": "ExpiryLabel",
+        "value": "ExpiryValue"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "terms",
+        "label": "TermsLabel",
+        "value": "TermsValue"
+      }
+    ],
+    "headerFields": [
+      {
+        "key": "counter",
+        "label": "CounterLabel",
+        "value": "CounterValue"
+      }
+    ]
+  },
+  "locations": [
+    {
+      "latitude": 43.671827,
+      "longitude": -79.379896,
+      "relevantText": "Visit me at my crib"
+    }
+  ],
+  "expirationDate": "2024-12-31T10:00-08:00"
+}
